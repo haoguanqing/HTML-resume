@@ -1,16 +1,16 @@
 var bio = {
-	"name" : "Guanqing Hao",
-	"role" : "Web Developer",
+	"name" : "Brian Hao ",
+	"role" : "Android Developer",
 	"contactInfo" : {
-		"mobile" : "+1 (ZIS) 8I3-3O7I",
+		"mobile" : "+I (2I5) 8I3-3O7I",
 		"email" : "haoguanqing@gml.com",
 		"github" : "haoguanqing",
 		"facebook" : "haoguanqing",
-		"location" : "Philadelphia, PA"
+		"location" : "Salem, OR"
 	},
-	"welcomeMsg" : "Welcome to my homepage! You can barely find anything about me here.",
-	"picture" : "images/black-rock.jpg",
-	"skills" : ["Java (Eclipse)", "JavaScript", "Python", "Nanofabrication", "Kerbal Space Program"]
+	"welcomeMsg" : " - Recent graduate actively looking for software developing long-term position - ",
+	"picture" : "images/fry.jpg",
+	"skills" : ["Java (Eclipse)", "Android Studio", "JavaScript", "Python", "Nanofabrication", "and ... Kerbal Space Program!"]
 }
 bio.display = function(){
 	var formattedName = HTMLheaderName.replace("%data%", bio.name);
@@ -49,17 +49,17 @@ bio.display();
 var work = {
 	"jobs" : [
 	{
+		"employer" : "University of Pennsylvania",
+		"title" : "Research Assistant",
+		"dates" : "01/2014-05/2015 ",
+		"location" : "Philadelphia, PA, US",
+		"description" : "Device simulation and chronic experiment data cleaning and analysis with Matlab and Python."
+	},{
 		"employer" : "Beijing Beiye Functional Materials Inc.",
 		"title" : "Summer Intern",
 		"dates" : "07/2012-09/2012 ",
 		"location" : "Beijing, China",
-		"description" : "Traditionally these are questions for philosophy, but philosophy is dead. Philosophy has not kept up with modern developments in science, particularly physics. Scientists have become the bearers of the torch of discovery in our quest for knowledge."
-	},{
-		"employer" : "Macrosoft Inc.",
-		"title" : "IDK",
-		"dates" : "2222 ",
-		"location" : "Philadelphia, PA",
-		"description" : "Philosophy has not kept up with modern developments in science, particularly physics. Scientists have become the bearers of the torch of discovery in our quest for knowledge."
+		"description" : "Gained exposure to the full manufacturing process as well as the ERP system."
 	}]
 }
 work.display = function() {
@@ -84,31 +84,42 @@ var education = {
 	"school" : [
 	{
 		"name" : "University of Pennsylvania",
-		"dates" : "08/2013-06/2015 ",
+		"dates" : "08/2013-06/2015",
 		"degree" : "Master of Science",
 		"major" : "Materials Science and Engineering",
 		"location" : "Philadelphia, PA"
 	},
 	{
 		"name" : "University of Science and Technology Beijing",
-		"dates" : "09/2009-07/2013 ",
+		"dates" : "09/2009-07/2013",
 		"degree" : "Bachelor of Engineering",
 		"major" : "Materials Science and Engineering",
 		"location" : "Beijing, China"
 	},
 	{
 		"name" : "Peking University",
-		"dates" : "09/2010-07/2013 ",
+		"dates" : "09/2010-07/2013",
 		"degree" : "Bachelor of Science",
 		"major" : "Economics",
 		"location" : "Beijing, China"
 	}],
 	"onlineCourses" : [
 	{
+		"title" : "Algorithms: Design and Analysis",
+		"school" : "Coursera",
+		"dates" : 2015,
+		"url" : "https://class.coursera.org/algo-008"
+	},{
 		"title" : "JavaScript Basics - The Programming Language of the Web",
 		"school" : "Udacity",
 		"dates" : 2015,
 		"url" : "https://www.udacity.com/course/ud804"
+	},{
+		
+		"title" : "Developing Android Apps - Android Fundamentals",
+		"school" : "Udacity",
+		"dates" : 2015,
+		"url" : "hhttps://www.udacity.com/course/developing-android-apps--ud853"
 	}]
 }
 education.display = function() {
