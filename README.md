@@ -12,3 +12,6 @@ The repository includes the following files:
 * **README.md**: 
 The GitHub readme file.
 * and some images in the images directory.
+
+Snapshot
+![My HTML Resmue](http://i.imgur.com/1hKZQwi.png)
